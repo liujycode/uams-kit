@@ -71,7 +71,7 @@ uams-kit/
 ### 第 1 步：初始化（生成你的 uams-root）
 
 ```bash
-# 用任意 Python 3（标准库即可，无需 pip install）
+# 用 Python 3.7+（标准库即可，无需 pip install）
 python uams-kit/init_uams.py --uams-root "D:/my-uams/uams-root"
 ```
 
