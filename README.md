@@ -360,7 +360,7 @@ python "$CLI" --ai-identity claude --uams-root <uams-root> search "UAMS" --scope
 
 | 类别 | 代表 | 形态 | 本地优先 | 零依赖 | 工具无关 | 治理 | 记忆检索 |
 |---|---|---|---|---|---|---|---|
-| 云 API | Mem0 | 云端 REST/SDK（$249 图谱档） | ✗ | ✗ | ✗ | 弱 | 向量 |
+| 云 API | Mem0 | 云端 REST/SDK（图谱功能在付费档） | ✗ | ✗ | ✗ | 弱 | 向量 |
 | 托管 MCP | MemoryLake / pumaDB | 云端 MCP | ✗ | ✗ | ✓ | 弱 | 向量 |
 | 本地 MCP（向量） | Muninn | 本地 MCP + ChromaDB/Ollama | ✓ | ✗（需 Ollama） | ✓ | 弱 | 向量 |
 | 本地 MCP（混合） | local-memory-mcp | 本地 SQLite，25 工具 | ✓ | ~ | ✓ | 中（矛盾检测） | BM25+向量 |
